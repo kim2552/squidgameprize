@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "my-squidgame-app",
+    "slug": "my-squidgame-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "my-squidgame-app"
+}
