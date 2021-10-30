@@ -1164,6 +1164,13 @@
     json5 "^1.0.1"
     write-file-atomic "^2.3.0"
 
+"@expo/match-media@^0.0.0-alpha.2":
+  version "0.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@expo/match-media/-/match-media-0.0.0-alpha.2.tgz#347e902d25aa9ab0fd559a9ba93bc7eb490ca268"
+  integrity sha512-iOpLrjgSELY/NGwkpAbuNGU7N/U/2fdstpfOLpKMGpebBKsJKLS94r2Tyd4rHAkejAMnbkTdlG1L0q9mN0PVmQ==
+  dependencies:
+    css-mediaquery "^0.1.2"
+
 "@expo/metro-config@~0.1.84":
   version "0.1.84"
   resolved "https://registry.yarnpkg.com/@expo/metro-config/-/metro-config-0.1.84.tgz#ddcc7b4f1087c29f86bc9d916933d29bacd2c726"
@@ -2240,6 +2247,11 @@ css-in-js-utils@^2.0.0:
     hyphenate-style-name "^1.0.2"
     isobject "^3.0.1"
 
+css-mediaquery@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/css-mediaquery/-/css-mediaquery-0.1.2.tgz#6a2c37344928618631c54bd33cedd301da18bea0"
+  integrity sha1-aiw3NEkoYYYxxUvTPO3TAdoYvqA=
+
 dayjs@^1.8.15:
   version "1.10.7"
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.10.7.tgz#2cf5f91add28116748440866a0a1d26f3a6ce468"
@@ -2468,6 +2480,14 @@ expo-asset@~8.4.3:
     path-browserify "^1.0.0"
     url-parse "^1.4.4"
 
+expo-av@~10.1.2:
+  version "10.1.2"
+  resolved "https://registry.yarnpkg.com/expo-av/-/expo-av-10.1.2.tgz#93d675d441ba663dc634fffb870533b3564de8d8"
+  integrity sha512-uJ3ArN/bJvTFk5uvcj0Vu+OZ2Q8orXtslpCJza+UuT5p5k0nE/KCrfrnH0vbSecI1ZY3G9yYPlNeeWqlMumKqA==
+  dependencies:
+    "@expo/config-plugins" "^4.0.2"
+    expo-modules-core "~0.4.4"
+
 expo-constants@~12.1.3:
   version "12.1.3"
   resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-12.1.3.tgz#bec48a42a7760b010450961c209bb4b1158b9cd6"
@@ -2536,6 +2556,14 @@ expo-modules-core@~0.4.4, expo-modules-core@~0.4.5, expo-modules-core@~0.4.7:
   dependencies:
     compare-versions "^3.4.0"
     invariant "^2.2.4"
+
+expo-screen-orientation@~4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/expo-screen-orientation/-/expo-screen-orientation-4.0.3.tgz#a747c1782dccb74725127e4f3af92d35f42df560"
+  integrity sha512-1UVGAHmi/eMxq3GE/KzLYt21ZT4xZcG51gdo6l/yskgdlqDSumhh/qp88H8beVgx+b+q2t38i0oHYoCRsjPz3g==
+  dependencies:
+    "@expo/config-plugins" "^4.0.2"
+    expo-modules-core "~0.4.4"
 
 expo-splash-screen@~0.13.3:
   version "0.13.4"
